@@ -740,12 +740,20 @@ res
 knitr::kable(t(res), digits = 1)
 ```
 
-             mean   median     sd
-----------  -----  -------  -----
-speed        15.4     15.0    5.3
-dist         43.0     36.0   25.8
-velocidad    24.8     24.1    8.5
-distancia    13.1     11.0    7.9
+
+\begin{tabular}{l|r|r|r}
+\hline
+  & mean & median & sd\\
+\hline
+speed & 15.4 & 15.0 & 5.3\\
+\hline
+dist & 43.0 & 36.0 & 25.8\\
+\hline
+velocidad & 24.8 & 24.1 & 8.5\\
+\hline
+distancia & 13.1 & 11.0 & 7.9\\
+\hline
+\end{tabular}
 
 
 
@@ -908,16 +916,11 @@ Ver ejemplo [*wosdata.R*](data/wosdata.zip)
 
 [`match()`](https://www.rdocumentation.org/packages/base/versions/3.6.1/topics/match)
 
+`match(x, table)` devuelve un vector (de la misma longitud que `x`) 
+con las (primeras) posiciones de coincidencia de `x` en `table`
+(o `NA`, por defecto, si no hay coincidencia).
+Para combinar tablas puede ser más cómodo el operador `%in%` (`?'%in%'`).
+
 [`pmatch()`](https://www.rdocumentation.org/packages/base/versions/3.6.1/topics/match)
 
-## Ejemplo WoS data
 
-
-```r
-# library(dplyr)
-# library(stringr)
-# Session > Set Working Directory > To Source...
-# source("data/wosdata/rwos.R")
-
-db <- readRDS("data/wosdata/db_udc_2015.rds")
-```
