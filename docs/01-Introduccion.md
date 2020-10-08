@@ -1,3 +1,10 @@
+---
+title: "T0 INTRO"
+author: "Guillermo Lopez Taboada"
+date: "14/09/2020"
+output: pdf_document
+---
+
 Introducción a las Tecnologías de Gestión y Manipulación de Datos
 =================================================================
 
@@ -28,17 +35,43 @@ En particular, los resultados de aprendizaje son:
 	+ Conceptos y tipos de bases de datos NoSQL (documental, columnar, clave/valor y de grafos)
 	+ Conexión de R a NoSQL
 3. Tecnologías para el tratamiento de datos masivos	
-	+ Tecnologías Big Data (Hadoop, Spark, Hive, Rspark, Sparklyr)
+	+ Tecnologías Big Data
 	+ Visualización y generación de cuadros de mando 
 	+ Introducción al análisis de datos masivos.
 
 
-## Planificación
-
-*Working draft...*
+## Planificación (tentativa)
 
 La impartición de los contenidos durante el curso dependerá de los conocimientos de partida y la asimilación de los 
 conceptos. Para completar nuestra visión de los conocimientos previos os requerimos completar este formulario en la primera sesión de clase: https://forms.gle/9HR5iFHXoLowrCHLA
+
+- Clase 1 (14/9): Presentación e introducción a Tema 1.
+
+- Clase 2 (17/9): Tema 1: Introducción a SQL
+
+- Clase 3 (21/9-RFC): Seminario Manipulación de datos con R 
+- Clase 4 (24/9-RFC): Seminario Manipulación de datos con dplyr
+
+- Clase 5 (28/9): Tema 1: Ejercicios SQL
+
+- Clase 6 (1/10): Tema 1: Ejercicios SQL 
+
+- Clase 7 (5/10): Tema 2: Introducción a NoSQL
+
+- Clase 8 (8/10): Tema 2: Ejercicios NoSQL
+
+- Clase 9 (19/10): Tema 2:  Ejercicios con formatos Open Data 
+
+- Clase 10 (26/10): Tema 3: Ecosistema Big Data 
+
+- Clase 11-20 (2/11 al 3/12): Tema 3: Ecosistema Big Data (teoría, práctica) + Seminario de aprendizaje estadístico (3 sesiones con RFC)
+
+No tendremos clase el 7 de Diciembre.
+
+- Clases 21-23 (10, 14 y 17/12): Tema 3: Ejercicios Big Data
+
+
+<!-- Curso 2019-2020
 
 - Clase 1 (12/9-R): Seminario R (Manipulación de datos con el paquete base de R)
 
@@ -48,28 +81,29 @@ conceptos. Para completar nuestra visión de los conocimientos previos os requer
 
 - Clase 4 (3/10-R): Seminario dplyr (Manipulación de datos con el paquete dplyr)
 
-- Clase 5 (10/10): Tema 1: Ejercicios prácticos de Entidad-relación y SQL
+- Clase 5 (10/10): Jornada usuarios R Galicia (cubre objetivos de Seminario aplicaciones Big Data en investigación e industria)
 
-- Clase 6 (17/10): Tema 1: Continuación de ejercicios prácticos SQL
+- Clase 6 (17/10): Tema 1: Ejercicios prácticos de Entidad-relación y SQL
 
 - Clase 7 (24/10): Tema 2: Introducción a NoSQL
 
-- Clase 8 (31/10): Tema 2: Ejercicios prácticos de NoSQL
+- Clase 8 (31/10):  Tema 1: Continuación de ejercicios prácticos SQL
 
-- Clase 9 (7/11): Tema 3: Ecosistema Big Data (Hadoop, Spark)
+- Clase 9 (7/11):  Tema 2: Ejercicios prácticos de NoSQL
 
-- Clase 10 (14/11): Tema 3: Tecnologías Big Data (Rspark/sparklyr)
+- Clase 10 (14/11):   Seminario visualización con power BI
 
-- Clase 11 (21/11): Seminario visualización con power BI 
+- Clase 11 (21/11):  Tema 3: Ecosistema Big Data (Hadoop, Spark)
 
-- Clase 12 (28/11): Seminario machine learning CESGA/localhost
+- Clase 12 (28/11):  Tecnologías Big Data (Rspark/sparklyr) + Seminario machine learning CESGA/localhost
 
-- Clase 13 (5/12): Tema 3: Introducción al análisis de datos masivos 
+- Clase 13 (5/12): Tema 3: Introducción al análisis de datos masivos son sparklyr
 
-- Clase 14 (12/12-R): Seminario Aprendizaje Estadístico/Automático, Data Mining
+- Clase 14 (12/12): Tema 3: Prácticas de Aprendizaje Estadístico/Automático, Data Mining con rattle
 
-- Clase 15 (19/12-opcional): Seminario aplicaciones Big Data en investigación e industria
+- Clase 15 (19/12-R): Seminario conectividad dplyr a BBDD
 
+-->
 
 ### Evaluación
 
@@ -84,7 +118,7 @@ Asimilación práctica de materia: Asimilación y comprensión de los conocimien
 
 #### Observaciones sobre la evaluación:
 
-* Las prácticas de laboratorio se realizarán en grupos de 2 estudiantes, salvo el trabajo tutelado que es individual y opcional. En caso de no realizar el trabajo tutelado los estudiantes tendrán un 67% de nota del examen y un 33% de prácticas de laboratorio. El plazo para realizar las 3 prácticas será de 2 semanas desde la presentación de la práctica. El plazo para la entrega de los trabajos tutelados es el último día de clase de la asignatura.
+* Las prácticas de laboratorio se realizarán de forma individual, así como el trabajo tutelado que es opcional. En caso de no realizar el trabajo tutelado los estudiantes tendrán un 67% de nota del examen y un 33% de prácticas de laboratorio. El plazo para realizar las 3 prácticas será indicado en la presentación de la práctica. El plazo para la entrega de los trabajos tutelados es el último día de clase de la asignatura.
 
 * El estudiante que quiera realizar un trabajo tutelado ha de hablar (o mediante correo electrónico) con los profesores para validar y confirmar el tema y alcance del trabajo tutelado.
 
